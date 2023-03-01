@@ -1,0 +1,280 @@
+/* FONTS */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Spectral', serif; */
+
+body,
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #242424;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+}
+
+.container {
+  max-width: 515px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  padding: 40px 0 24px;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+.header__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 9px 0;
+}
+
+.header__title {
+  font-family: 'Spectral', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: -0.05em;
+  color: #2d3e5b;
+  margin-bottom: 8px;
+}
+
+.header__subtitle {
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #db9291;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 12px;
+}
+
+.icon-mail {
+  background-image: url("../img/mail.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.icon-link {
+  background-image: url("../img/link.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.icon-linkedin {
+  background-image: url("../img/linkedin.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.icon-instagram {
+  background-image: url("../img/instagram.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+/* INTRO */
+article.container>p {
+  font-family: "Spectral", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130.2%;
+  letter-spacing: -0.05em;
+  color: #242424;
+  background: #F7F8F8;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+/* EXPERIENCE */
+.experience {
+  padding: 24px 0 0;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #db9291;
+}
+
+.job {
+  padding: 16px 0 12px;
+  border-bottom: 1px solid #ededed;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 69px;
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.role {
+  font-family: 'Spectral', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #2d3e5b;
+}
+
+.icon-briefcase {
+  background-image: url("../img/briefcase.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.icon-calendar {
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.description {
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.tasks-a {
+  margin-bottom: 16px;
+}
+
+.tasks-b {
+  margin-bottom: 24px;
+}
+
+/* SKILLS */
+.skill-edu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 24px 0 40px;
+}
+
+.skills, .education {
+  width: 241px;
+}
+
+.title-technology {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #db9291;
+}
+
+.set {
+  padding-top: 16px;
+}
+
+.title-skill {
+  font-family: 'Spectral, serif';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  color: #2d3e5b;
+  margin-bottom: 2px;
+}
+
+.items {
+  font-weight: 400;
+  line-height: 14px;
+}
+
+/* EDUCATION */
+.working {
+  border-bottom: 1px solid #ededed;
+  padding-top: 16px;
+}
+
+.title-name {
+  font-family: 'Spectral, serif';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  color: #2d3e5b;
+  margin-bottom: 8px;
+}
+
+.place {
+  margin-bottom: 8px;
+}
+
+.place-a {
+  margin-right: 94px;
+}
+
+.place-b {
+  margin-right: 116px;
+}
+
+.place-c {
+  margin-right: 109px;
+}
+
+.icon-book-open {
+  background-image: url("../img/book-open.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+
+.icon-calendar {
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
